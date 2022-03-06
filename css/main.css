@@ -134,6 +134,10 @@ video {
   color: var(--white);
 }
 
+.grid {
+  display: grid;
+}
+
 /* Mobile Only Styles */
 @media (max-width: 47.9375em) {
   ul.socials {
@@ -147,6 +151,12 @@ video {
 
 /* Desktop Only Styles */
 @media (min-width: 48em) {
+  .grid {
+    grid-template-columns: 4fr 3fr;
+    gap: 2rem;
+    align-items: center;
+  }
+
   ul.socials {
     margin: 0 0 0 auto;
   }
