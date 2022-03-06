@@ -56,6 +56,12 @@ small,
   font-size: 0.889rem;
 }
 
+.container {
+  max-width: 85.5rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
 .bg-purple {
   background-image: url(./../images/bg-mobile.svg);
   background-color: var(--primary-violet);
