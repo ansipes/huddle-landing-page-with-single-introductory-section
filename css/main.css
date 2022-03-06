@@ -69,6 +69,46 @@ small,
   background-size: 100%;
 }
 
+.rounded {
+  border-radius: 9999px;
+}
+
+.button {
+  background-color: var(--white);
+  color: var(--primary-violet);
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button:hover,
+.button:focus-visible {
+  color: var(--white);
+  background-color: var(--primary-soft-magenta);
+}
+
+.socials {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  max-width: 10rem;
+}
+
+.socials a {
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  border: 0.125rem solid currentColor;
+}
+
+.socials a:hover,
+.socials a:focus-visible {
+  color: var(--primary-soft-magenta);
+}
+
 /* Decent Defaults */
 img,
 video {
