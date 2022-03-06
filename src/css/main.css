@@ -91,6 +91,11 @@ small,
   background-color: var(--primary-soft-magenta);
 }
 
+.logo {
+  max-width: 10rem;
+  display: block;
+}
+
 ul.socials {
   list-style-type: none;
   display: grid;
